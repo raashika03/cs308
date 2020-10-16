@@ -16,11 +16,11 @@ int main(int argc, char* argv[]) {
 	if(input>0)
 	{
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
-	printf("End of the program.Exiting\n");
 	}
 	else{
-	exit(-1);		
+	printf("Sqrt of %d is %fi",input,sqrt(-(input)));		
 	}
+	printf("End of the program.Exiting\n");
 	return(0);
 
 } // end main
