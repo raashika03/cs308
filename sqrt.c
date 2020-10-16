@@ -20,6 +20,7 @@ int main(int argc, char* argv[]) {
 	else{
 	printf("Sqrt of %d is %fi",input,sqrt(-(input)));		
 	}
+	printf("conflict testing in negativeSupport branch");
 	printf("End of the program.Exiting\n");
 	return(0);
 
